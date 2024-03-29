@@ -35,7 +35,7 @@ const PASSWORD = process.env.DB_PASSWORD;
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Starting server~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-const port = process.env.PORt || 8000;
+const port = process.env.PORT || 8000;
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });
